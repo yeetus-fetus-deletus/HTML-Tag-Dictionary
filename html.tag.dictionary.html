@@ -93,19 +93,26 @@ example: <h6>best metal bands:</h6>
 		<li>Dragonforce</li>
 		</ul>
 
-selector {
-	property: value;
+CSS:
+		
+	selector {
+		property: value;
 	}
 
-style: placed in header, defines the style of page (i.e. font color and size, etc.)
-	attributes: none
-	example:
-		style {
-			font size: 50pt;
-			font color: blue;
-		}
-
-div: creates separate border
-	attributes: none
-	example:
-		div {
+	style: placed in header, defines the style of page (i.e. font color and size, etc.)
+		attributes: none
+		
+	div: creates separate border
+		attributes: none
+		examples:
+			<style>
+				div {
+				width: 800px;
+				border: 5px solid green;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 50px;
+				padding: 20px;
+				background-color: black;
+				}
+			</style>
